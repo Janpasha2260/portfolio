@@ -1,233 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Janpasha Mohammad, Senior Network Security Engineer, featuring an AI and machine learning timeline artifact.">
+  <meta name="author" content="Janpasha Mohammad">
+  <title>Janpasha Mohammad | Network Security & AI Portfolio</title>
 
-    <title>My Professional Portfolio</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #1f4e79;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        header h1 {
-            margin-bottom: 10px;
-        }
-
-        nav {
-            background-color: #163a5c;
-            text-align: center;
-            padding: 12px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 30px auto;
-        }
-
-        section {
-            background-color: white;
-            margin-bottom: 25px;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        section h2 {
-            color: #1f4e79;
-            margin-bottom: 15px;
-        }
-
-        .project-card {
-            border-left: 5px solid #1f4e79;
-            padding: 15px;
-            margin-top: 15px;
-            background-color: #f8f9fa;
-        }
-
-        .project-card h3 {
-            margin-bottom: 8px;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 18px;
-            background-color: #1f4e79;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .button:hover {
-            background-color: #163a5c;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #1f4e79;
-            color: white;
-            padding: 20px;
-            margin-top: 30px;
-        }
-
-        @media screen and (max-width: 600px) {
-            nav a {
-                display: block;
-                margin: 8px 0;
-            }
-
-            header {
-                padding: 30px 15px;
-            }
-        }
-    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <header>
-        <h1>Your Name</h1>
-        <p>Student | Technology Professional | Lifelong Learner</p>
-    </header>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Janpasha Mohammad home">
+        <span class="brand-mark" aria-hidden="true">JM</span>
+        <span>Janpasha Mohammad</span>
+      </a>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#artifact">Portfolio Artifact</a>
-        <a href="#reflection">Reflection</a>
-        <a href="#contact">Contact</a>
-    </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation menu</span>
+        <span></span><span></span><span></span>
+      </button>
 
-    <main class="container">
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#artifact">Artifact 1</a>
+        <a class="nav-cta" href="https://www.linkedin.com/in/janpasha-mohammad-199888212" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
 
-        <section id="about">
-            <h2>About Me</h2>
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Senior Network Security Engineer • AI/ML Learner</p>
+          <h1>Securing modern infrastructure while preparing for an AI-enabled future.</h1>
+          <p class="hero-summary">
+            I am Janpasha Mohammad, a network and cybersecurity professional with more than
+            10 years of experience designing, protecting, and supporting enterprise environments
+            across healthcare, telecommunications, retail, logistics, and technology.
+          </p>
 
-            <p>
-                Welcome to my professional portfolio. I am a graduate student
-                with an interest in artificial intelligence, machine learning,
-                data analytics, and technology leadership. This portfolio
-                highlights selected academic projects, technical skills, and
-                reflections on my professional development.
-            </p>
-        </section>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#artifact">View Artifact 1</a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/janpasha-mohammad-199888212" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+          </div>
 
-        <section id="artifact">
-            <h2>Portfolio Artifact</h2>
+          <ul class="hero-highlights" aria-label="Professional highlights">
+            <li><strong>10+ years</strong><span>Enterprise experience</span></li>
+            <li><strong>Healthcare</strong><span>Mission-critical operations</span></li>
+            <li><strong>AWS & Azure</strong><span>Cloud networking</span></li>
+          </ul>
+        </div>
 
-            <div class="project-card">
-                <h3>Artificial Intelligence and Machine Learning Timeline</h3>
+        <aside class="profile-card reveal" aria-label="Professional profile summary">
+          <div class="profile-monogram" aria-hidden="true">JM</div>
+          <p class="profile-role">Senior Network Security Engineer</p>
+          <h2>BioBridge Global</h2>
+          <p>San Antonio, Texas</p>
 
-                <p>
-                    This artifact presents the historical development of
-                    artificial intelligence and machine learning. It includes
-                    major milestones, influential researchers, AI winters,
-                    advances in deep learning, cloud computing, and the current
-                    use of generative AI.
-                </p>
+          <div class="profile-divider"></div>
 
-                <p>
-                    The project demonstrates my ability to research technical
-                    topics, organize information, create digital content, and
-                    communicate complex ideas in an understandable format.
-                </p>
-
-                <a href="timeline.html" class="button">
-                    View the AI Timeline
-                </a>
+          <dl class="profile-details">
+            <div>
+              <dt>Primary Focus</dt>
+              <dd>Network security, cloud connectivity, automation, and resilient infrastructure</dd>
             </div>
-        </section>
+            <div>
+              <dt>Education</dt>
+              <dd>M.S. in Information Technology, Concordia University, St. Paul</dd>
+            </div>
+            <div>
+              <dt>Portfolio Purpose</dt>
+              <dd>Showcase technical expertise, applied learning, and professional growth</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
 
-        <section id="reflection">
-            <h2>Artifact Reflection</h2>
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Enterprise security experience grounded in reliability, collaboration, and continuous learning.</h2>
+        </div>
 
+        <div class="about-grid">
+          <article class="content-card reveal">
+            <h3>Professional Profile</h3>
             <p>
-                I selected this artifact because it demonstrates both my
-                technical knowledge and my ability to present information
-                visually. While developing the timeline, I learned that the
-                growth of artificial intelligence did not occur in a straight
-                line. The field experienced periods of progress, disappointment,
-                reduced funding, and renewed innovation.
+              My expertise includes designing, implementing, and securing enterprise-scale network
+              environments using Cisco, Palo Alto, Fortinet, Juniper, F5, AWS, Azure, SD-WAN, and
+              Cisco ISE technologies. I specialize in security architecture, firewall administration,
+              routing and switching, cloud networking, network automation, and advanced troubleshooting.
             </p>
-
             <p>
-                Creating the artifact also improved my research, web-design,
-                and communication skills. I organized important developments
-                into clearly defined periods and used HTML and CSS to create an
-                accessible webpage. This project is relevant to my professional
-                goals because understanding the evolution of AI helps me evaluate
-                current technologies more thoughtfully.
+              I have supported organizations in highly regulated and operationally demanding sectors.
+              My work emphasizes secure connectivity, high availability, documentation, risk reduction,
+              and effective collaboration with security, infrastructure, cloud, server, and application teams.
             </p>
-        </section>
+          </article>
 
-        <section id="skills">
-            <h2>Skills Demonstrated</h2>
+          <article class="content-card reveal">
+            <h3>Current Organization and Workspace</h3>
+            <p>
+              BioBridge Global is a healthcare and biotechnology organization supporting blood banking,
+              tissue services, cellular therapy, and regenerative medicine. Its services depend on secure,
+              highly available, and compliant technology infrastructure.
+            </p>
+            <p>
+              My work environment includes enterprise networks, data centers, cloud platforms, hybrid
+              operations, healthcare security requirements, and 24/7 mission-critical services. I help
+              maintain reliable network operations while supporting the organization's healthcare mission.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-            <ul>
-                <li>HTML and CSS web development</li>
-                <li>Artificial intelligence research</li>
-                <li>Technical communication</li>
-                <li>Information organization</li>
-                <li>Digital presentation and design</li>
-                <li>Critical thinking and reflection</li>
+    <section class="section" id="value">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Professional Value Proposition</p>
+          <h2>I connect security strategy with practical infrastructure execution.</h2>
+          <p>
+            My value comes from combining deep network engineering experience with cybersecurity,
+            cloud, automation, and growing AI/ML knowledge. This allows me to evaluate emerging
+            technology through the lens of security, reliability, governance, and business impact.
+          </p>
+        </div>
+
+        <div class="value-grid">
+          <article class="mini-card reveal">
+            <span class="card-number">01</span>
+            <h3>Secure by Design</h3>
+            <p>I build network solutions with access control, policy governance, segmentation, visibility, and risk reduction in mind.</p>
+          </article>
+          <article class="mini-card reveal">
+            <span class="card-number">02</span>
+            <h3>Operational Reliability</h3>
+            <p>I support high-availability environments through disciplined troubleshooting, monitoring, documentation, and change planning.</p>
+          </article>
+          <article class="mini-card reveal">
+            <span class="card-number">03</span>
+            <h3>Technology Translation</h3>
+            <p>I explain technical decisions clearly so that infrastructure, security, application, and business teams can work toward shared outcomes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="expertise">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical Expertise</p>
+          <h2>Capabilities developed across enterprise networking, security, cloud, and automation.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-group reveal">
+            <h3>Security</h3>
+            <ul class="tag-list">
+              <li>Palo Alto</li><li>Fortinet FortiGate</li><li>Cisco ASA / FTD</li>
+              <li>Cisco ISE</li><li>Cisco Umbrella</li><li>VPN</li>
+              <li>802.1X</li><li>NAC</li><li>DLP</li><li>Zero Trust</li>
             </ul>
-        </section>
+          </article>
 
-        <section id="contact">
-            <h2>Contact</h2>
+          <article class="skill-group reveal">
+            <h3>Networking</h3>
+            <ul class="tag-list">
+              <li>TCP/IP</li><li>DNS</li><li>DHCP</li><li>LAN / WAN</li>
+              <li>MPLS</li><li>SD-WAN</li><li>VLANs</li><li>Routing & Switching</li>
+              <li>BGP</li><li>OSPF</li><li>EIGRP</li><li>IS-IS</li>
+            </ul>
+          </article>
 
-            <p>
-                Thank you for reviewing my professional portfolio. You can
-                contact me through email or visit my GitHub profile to view
-                additional projects.
-            </p>
+          <article class="skill-group reveal">
+            <h3>Cloud and Automation</h3>
+            <ul class="tag-list">
+              <li>AWS</li><li>Azure</li><li>VPC</li><li>Direct Connect</li>
+              <li>Route 53</li><li>Cloud Security</li><li>Python</li>
+              <li>Netmiko</li><li>Infrastructure Scripting</li><li>Log Analysis</li>
+            </ul>
+          </article>
 
-            <p>
-                <strong>Email:</strong> yourname@email.com
-            </p>
+          <article class="skill-group reveal">
+            <h3>Application Delivery</h3>
+            <ul class="tag-list">
+              <li>F5 BIG-IP LTM</li><li>F5 VIPRION</li><li>Citrix NetScaler</li>
+              <li>Load Balancing</li><li>High Availability</li><li>Performance Monitoring</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-            <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/yourusername" target="_blank">
-                    github.com/yourusername
-                </a>
-            </p>
-        </section>
+    <section class="section" id="education">
+      <div class="container education-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Academic Foundation</p>
+          <h2>Master’s-level learning that complements enterprise experience.</h2>
+          <p>
+            My Master of Science in Information Technology strengthened my ability to connect
+            technical decisions with information systems, risk, project management, and organizational needs.
+          </p>
+        </div>
 
-    </main>
+        <div class="outcomes-card reveal">
+          <h3>Selected Course Outcomes</h3>
+          <ul class="check-list">
+            <li>Advanced network security and cybersecurity knowledge</li>
+            <li>AWS and Azure cloud computing</li>
+            <li>Information systems management</li>
+            <li>Network architecture design</li>
+            <li>Database and systems administration</li>
+            <li>IT project management</li>
+            <li>Cyber risk assessment and compliance</li>
+            <li>Automation and scripting concepts</li>
+            <li>Research and analytical problem-solving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
-    </footer>
+    <section class="section artifact-section" id="artifact">
+      <div class="container">
+        <div class="artifact-intro reveal">
+          <div>
+            <p class="eyebrow">Portfolio Artifact 1</p>
+            <h2>Artificial Intelligence and Machine Learning Evolution Timeline</h2>
+          </div>
+          <span class="artifact-badge">Workshop 1</span>
+        </div>
 
+        <div class="artifact-meta reveal">
+          <div>
+            <span>Audience</span>
+            <p>Technology leaders, hiring managers, instructors, and professionals interested in secure AI adoption.</p>
+          </div>
+          <div>
+            <span>Purpose</span>
+            <p>Demonstrate research, technical communication, historical awareness, and the ability to explain AI development clearly.</p>
+          </div>
+          <div>
+            <span>Professional Connection</span>
+            <p>Connect the history of AI/ML to modern cybersecurity, cloud infrastructure, governance, and enterprise technology.</p>
+          </div>
+        </div>
+
+        <div class="timeline" aria-label="Artificial intelligence and machine learning timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1950</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Foundations</p>
+              <h3>Alan Turing Proposes the Imitation Game</h3>
+              <p>Turing’s work introduced an influential way to discuss whether a machine could demonstrate behavior considered intelligent.</p>
+              <span class="timeline-impact">Impact: Framed a lasting question about machine intelligence.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1956</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Birth of a Field</p>
+              <h3>Dartmouth Workshop Establishes Artificial Intelligence</h3>
+              <p>The Dartmouth summer research project helped formalize artificial intelligence as a distinct academic and research discipline.</p>
+              <span class="timeline-impact">Impact: Created a shared identity for AI research.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1960s</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Early Demonstrations</p>
+              <h3>Language and Reasoning Programs Gain Attention</h3>
+              <p>Systems such as ELIZA and SHRDLU demonstrated early progress in language interaction, symbolic reasoning, and human-computer communication.</p>
+              <span class="timeline-impact">Impact: Showed the potential and limitations of rule-based intelligence.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1974–1980</div>
+            <div class="timeline-card">
+              <p class="timeline-era">First AI Winter</p>
+              <h3>Expectations Exceed Available Computing Capability</h3>
+              <p>Funding and enthusiasm declined as early systems struggled with limited computing power, narrow problem-solving ability, and unrealistic expectations.</p>
+              <span class="timeline-impact">Lesson: Sustainable innovation requires realistic goals and measurable value.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1980s</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Expert Systems</p>
+              <h3>Knowledge-Based Systems Enter Organizations</h3>
+              <p>Expert systems used specialized rules and domain knowledge to support decisions in areas such as diagnostics, configuration, and business operations.</p>
+              <span class="timeline-impact">Impact: Expanded AI from research laboratories into enterprise use.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1987–1993</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Second AI Winter</p>
+              <h3>Maintenance Costs and Limited Flexibility Slow Adoption</h3>
+              <p>Organizations encountered challenges maintaining rule-heavy systems, while specialized hardware markets weakened and investment declined.</p>
+              <span class="timeline-impact">Lesson: Scalability, adaptability, and lifecycle support matter.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">1997</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Public Milestone</p>
+              <h3>Deep Blue Defeats the World Chess Champion</h3>
+              <p>IBM’s Deep Blue demonstrated the power of specialized computing, search, and evaluation techniques in a complex competitive domain.</p>
+              <span class="timeline-impact">Impact: Increased public awareness of machine capability.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2006</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Deep Learning Revival</p>
+              <h3>Multilayer Neural Networks Regain Momentum</h3>
+              <p>Research advances, improved training approaches, growing datasets, and stronger computing resources renewed interest in deep neural networks.</p>
+              <span class="timeline-impact">Impact: Prepared the foundation for modern deep learning.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2012</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Breakthrough Performance</p>
+              <h3>Deep Learning Transforms Image Recognition</h3>
+              <p>Large neural networks trained with powerful graphics processors achieved major improvements in image classification performance.</p>
+              <span class="timeline-impact">Impact: Accelerated AI investment across research and industry.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2016</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Reinforcement Learning</p>
+              <h3>AlphaGo Demonstrates Strategic Learning</h3>
+              <p>AlphaGo combined deep neural networks, search, and reinforcement learning to achieve a widely recognized milestone in the game of Go.</p>
+              <span class="timeline-impact">Impact: Demonstrated learning in highly complex decision spaces.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2017</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Transformer Architecture</p>
+              <h3>Attention-Based Models Reshape Language AI</h3>
+              <p>The transformer architecture improved the ability of models to process relationships within sequences and became central to modern language systems.</p>
+              <span class="timeline-impact">Impact: Enabled rapid progress in large-scale language modeling.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2020</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Scaling Language Models</p>
+              <h3>Large Language Models Expand General-Purpose Capabilities</h3>
+              <p>Large pretrained models demonstrated stronger performance across writing, summarization, question answering, coding, and other language tasks.</p>
+              <span class="timeline-impact">Impact: Shifted AI toward adaptable foundation models.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2022</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Generative AI Adoption</p>
+              <h3>Conversational AI Reaches Mainstream Users</h3>
+              <p>Accessible generative AI tools brought large language models into education, business, software development, research, and everyday communication.</p>
+              <span class="timeline-impact">Impact: Made AI interaction practical for broad audiences.</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-year">2023–Present</div>
+            <div class="timeline-card">
+              <p class="timeline-era">Enterprise AI Era</p>
+              <h3>Multimodal Systems, Governance, and Secure Adoption</h3>
+              <p>Organizations are increasingly evaluating AI for productivity, analytics, automation, and decision support while strengthening privacy, security, oversight, and responsible-use practices.</p>
+              <span class="timeline-impact">Professional relevance: AI value must be balanced with cybersecurity, compliance, reliability, and human accountability.</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="artifact-conclusion reveal">
+          <h3>Why This Artifact Matters to My Audience</h3>
+          <p>
+            This timeline is more than a historical summary. It shows that AI progress has always
+            depended on the interaction of ideas, data, computing infrastructure, organizational
+            investment, and responsible expectations. For technology leaders and security
+            professionals, this history provides an important lesson: successful AI adoption requires
+            strong infrastructure, realistic governance, ongoing monitoring, and thoughtful risk management.
+          </p>
+        </div>
+
+        <div class="artifact-reflection reveal">
+          <p class="eyebrow">Artifact 1 Reflection</p>
+          <h3>Reflection on Tool Selection, Audience, and Professional Value</h3>
+          <p>
+            I selected GitHub Pages as my professional portfolio tool because it is widely used in
+            technology fields, easy to share, and appropriate for presenting technical work. It also
+            allows me to demonstrate basic web-development and digital communication skills while
+            keeping my portfolio accessible to instructors, peers, recruiters, and other technology professionals.
+          </p>
+          <p>
+            For my first artifact, I selected the Artificial Intelligence and Machine Learning
+            Evolution Timeline. My intended audience includes technology leaders, hiring managers,
+            cybersecurity professionals, and individuals who want a clear overview of how AI developed.
+            I chose this artifact because it demonstrates research, organization, audience awareness,
+            and the ability to explain complex technical developments in a structured and understandable format.
+          </p>
+          <p>
+            I customized the artifact by connecting major AI milestones to enterprise lessons such as
+            realistic expectations, scalability, infrastructure readiness, governance, security, and
+            responsible adoption. These ideas are relevant to my career as a Senior Network Security
+            Engineer because modern AI systems depend on secure networks, cloud platforms, access controls,
+            monitoring, compliance, and reliable operations. Presenting the timeline in this way helps my
+            audience see both my technical background and my growing understanding of AI and machine learning.
+          </p>
+          <p>
+            Building this portfolio also encouraged me to think more carefully about my professional
+            value proposition. I bring more than 10 years of networking and cybersecurity experience,
+            but I also recognize the importance of continuous learning as AI changes enterprise technology.
+            Future artifacts will allow me to show additional technical work, reflection, and professional
+            growth while demonstrating how I can help organizations adopt new technologies securely and responsibly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="responsibilities">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Current Responsibilities</p>
+          <h2>Supporting secure, reliable, and compliant enterprise operations.</h2>
+        </div>
+
+        <div class="responsibility-grid">
+          <ul class="responsibility-list reveal">
+            <li>Design and maintain secure enterprise network infrastructure.</li>
+            <li>Configure and administer next-generation firewalls and VPN technologies.</li>
+            <li>Manage BGP, OSPF, EIGRP, VLANs, LAN, WAN, and SD-WAN services.</li>
+            <li>Implement Cisco ISE, network access control, and 802.1X authentication.</li>
+            <li>Support AWS and Azure network connectivity and cloud security.</li>
+            <li>Conduct firewall policy reviews, audits, upgrades, and patching.</li>
+          </ul>
+          <ul class="responsibility-list reveal">
+            <li>Monitor performance and investigate complex network or security incidents.</li>
+            <li>Manage DNS, DHCP, addressing, and core network services.</li>
+            <li>Develop Python-based automation and operational scripts.</li>
+            <li>Create network diagrams, standards, procedures, and support documentation.</li>
+            <li>Collaborate across security, cloud, infrastructure, and application teams.</li>
+            <li>Contribute to modernization, Zero Trust, resilience, and risk-reduction initiatives.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Professional Connection</p>
+          <h2>Let’s connect around network security, cloud infrastructure, and responsible AI adoption.</h2>
+        </div>
+        <a class="button button-light" href="https://www.linkedin.com/in/janpasha-mohammad-199888212" target="_blank" rel="noopener noreferrer">View LinkedIn Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="current-year"></span> Janpasha Mohammad. Professional Portfolio.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
