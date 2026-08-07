@@ -1,0 +1,4 @@
+quality_check,before_cleaning,after_cleaning
+missing_values,37,0
+duplicate_rows,8,0
+values_outside_caps,34,0

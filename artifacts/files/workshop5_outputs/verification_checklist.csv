@@ -1,0 +1,8 @@
+verification_check,passed
+expected_feature_count,True
+binary_target,True
+train_validation_disjoint,True
+train_test_disjoint,True
+validation_test_disjoint,True
+no_source_missing_values,True
+split_total_matches_source,True

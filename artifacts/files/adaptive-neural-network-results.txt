@@ -1,0 +1,3 @@
+Original environment accuracy: 94.4%
+Changed environment before adaptation: 81.7%
+Changed environment after retraining: 95.0%

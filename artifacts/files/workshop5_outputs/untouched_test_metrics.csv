@@ -1,0 +1,2 @@
+selected_model,threshold,accuracy,precision_malignant,recall_malignant,f1_malignant,roc_auc
+random_forest,0.34999999999999987,0.9122807017543859,0.8235294117647058,0.9767441860465116,0.8936170212765957,0.9918113331149688

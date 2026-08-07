@@ -1,39 +1,49 @@
-# Janpasha Mohammad — AIML-500 Professional Portfolio
+# Janpasha Mohammad — AI/ML Professional Portfolio
 
-This is a complete replacement theme for the original portfolio. The new design uses an editorial, research-lab visual system with bold borders, high-contrast typography, evidence panels, and two audience-focused artifact case studies.
+This is a static GitHub Pages portfolio containing five course artifacts and a separate landing page for each artifact.
 
-## Public portfolio contents
+Every artifact landing page concludes with a separate three-paragraph reflection explaining learning, professional growth, limitations, and future application.
 
-- Professional biography and current workspace
-- Personal value proposition on the home page
-- Artifact 1: **SafeClick AI: Phishing Awareness & Account Safety Assistant**
-- Artifact 2: **Machine Learning vs. Deep Learning: A Decision Guide Through Real Cases**
-- Explicit sections for **What is it? Objective, Process, Tools, and Value** for each artifact
-- Supporting Word-document links and visual previews
-- Professional method and capability evidence
-- LinkedIn connection link
+Workshops Four and Five use the real Wisconsin Diagnostic Breast Cancer dataset from the UCI Machine Learning Repository through scikit-learn. Their artifact folders include executable Python, source-data evidence, CSV metrics, recorded output, predictions, confusion matrices, and generated charts.
 
-## Important course correction
+## Publish with GitHub Pages
 
-Private reflections are intentionally **not** included on the public site. Submit the required artifact reflections directly in Brightspace, as directed by the AIML-500 portfolio requirement.
+1. Create a new public GitHub repository, for example `ai-ml-portfolio`.
+2. Upload every file and folder from this package to the repository root.
+3. Open **Settings → Pages** in the repository.
+4. Under **Build and deployment**, choose **GitHub Actions**.
+5. The included workflow publishes the site automatically after a push to `main`.
 
-## Folder structure
+The public address will normally be:
 
-```text
-index.html
-styles.css
-script.js
-assets/
-  safeclick-ai-preview.png
-  ml-vs-deep-learning-preview.png
-artifacts/
-  Workshop-1-SafeClick-AI.docx
-  Workshop-2-ML-vs-Deep-Learning.docx
+`https://YOUR-USERNAME.github.io/ai-ml-portfolio/`
+
+## Open locally — easiest method
+
+1. Extract the ZIP completely. Do not open `index.html` from inside the ZIP preview.
+2. Open the extracted folder.
+3. Double-click `index.html`.
+
+The portfolio and all five artifact pages work directly from local files. No installation or server is required.
+
+## Optional local server
+
+Run this command from the project folder:
+
+```bash
+python -m http.server 8000
 ```
 
-- Public/shareable site opens without a login
-- Personal value proposition appears near the top
-- Two AIML-500 artifacts are visible
-- Each artifact has Title, What is it, Objective, Process, Tools, and Value
-- Both Word artifact links open or download correctly
-- Reflections are submitted separately in Brightspace
+Then open `http://localhost:8000`.
+
+## Structure
+
+- `index.html` — portfolio home page
+- `styles.css` — responsive design
+- `script.js` — artifact data and rendering
+- `artifacts/<artifact-name>/index.html` — five separate artifact landing pages
+- `artifacts/files/` — reports, code, and results
+- `assets/` — portfolio visuals
+- `.github/workflows/pages.yml` — GitHub Pages deployment workflow
+
+The Workshop Four and Five analyses use real public data but remain educational demonstrations. They are not clinical tools and should not be used for real medical decisions.

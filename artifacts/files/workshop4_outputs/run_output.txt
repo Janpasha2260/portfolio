@@ -1,0 +1,18 @@
+WORKSHOP 4 — REAL DATA EVIDENCE
+Dataset: Wisconsin Diagnostic Breast Cancer (UCI)
+Records: 569 | Features: 30
+Class counts — malignant: 212, benign: 357
+
+DATA QUALITY AUDIT
+      quality_check  before_cleaning  after_cleaning
+     missing_values               37               0
+     duplicate_rows                8               0
+values_outside_caps               34               0
+
+MODEL IMPACT ON UNTOUCHED TEST SET
+          model_input  accuracy  precision_malignant  recall_malignant  f1_malignant  roc_auc
+   controlled_defects     0.972               0.9804            0.9434        0.9615   0.9958
+cleaned_training_data     0.972               0.9804            0.9434        0.9615   0.9962
+
+Bias limitation: no demographic attributes are present, so demographic fairness is not claimed.
+Clinical limitation: educational evidence only; not approved for diagnosis.

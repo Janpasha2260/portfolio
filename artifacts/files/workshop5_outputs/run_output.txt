@@ -1,0 +1,30 @@
+WORKSHOP 5 — REAL DATA VALIDATION AND VERIFICATION
+Dataset: Wisconsin Diagnostic Breast Cancer (UCI)
+Records: 569 | Features: 30
+Split sizes — train: 341, validation: 114, test: 114
+
+VERIFICATION CHECKS
+expected_feature_count: PASSED
+binary_target: PASSED
+train_validation_disjoint: PASSED
+train_test_disjoint: PASSED
+validation_test_disjoint: PASSED
+no_source_missing_values: PASSED
+split_total_matches_source: PASSED
+
+VALIDATION MODEL COMPARISON
+              model  threshold  accuracy  precision_malignant  recall_malignant  f1_malignant  roc_auc
+logistic_regression       0.62    0.9825               0.9762            0.9762        0.9762   0.9974
+      random_forest       0.35    0.9825               0.9545            1.0000        0.9767   0.9974
+
+SELECTED MODEL: random_forest; THRESHOLD: 0.35
+
+UNTOUCHED TEST METRICS
+selected_model  threshold  accuracy  precision_malignant  recall_malignant  f1_malignant  roc_auc
+ random_forest       0.35    0.9123               0.8235            0.9767        0.8936   0.9918
+
+CONFUSION MATRIX
+[[62  9]
+ [ 1 42]]
+
+Release decision: educational validation passed; clinical deployment NOT authorized.
