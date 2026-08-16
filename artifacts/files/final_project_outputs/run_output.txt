@@ -1,0 +1,12 @@
+REAL DATASET: scikit-learn diabetes dataset
+Records: 442 | Features: 10
+Training records: 353 | Untouched test records: 89
+
+MODEL COMPARISON
+           model  cv_mae_mean  cv_mae_std  cv_r2_mean  cv_r2_std
+Ridge regression      45.0604      1.9512      0.4797     0.0389
+   Random forest      47.7552      2.5235      0.4267     0.0667
+
+UNTOUCHED TEST METRICS
+  selected_model  test_records  test_mae  test_rmse  test_r2
+Ridge regression            89   42.8568    53.6263   0.4572

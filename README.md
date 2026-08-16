@@ -1,10 +1,10 @@
 # Janpasha Mohammad — AI/ML Professional Portfolio
 
-This is a static GitHub Pages portfolio containing five course artifacts and a separate landing page for each artifact.
+This is a static GitHub Pages portfolio containing six workshop artifacts, a separate final project, and a landing page for each artifact.
 
 Every artifact landing page concludes with a separate three-paragraph reflection explaining learning, professional growth, limitations, and future application.
 
-Workshops Four and Five use the real Wisconsin Diagnostic Breast Cancer dataset from the UCI Machine Learning Repository through scikit-learn. Their artifact folders include executable Python, source-data evidence, CSV metrics, recorded output, predictions, confusion matrices, and generated charts.
+Workshops Four and Five use the real Wisconsin Diagnostic Breast Cancer dataset from the UCI Machine Learning Repository through scikit-learn. The final project uses the real scikit-learn diabetes dataset. These artifact folders include executable Python, source-data evidence, CSV metrics, recorded output, predictions, and generated charts.
 
 ## Publish with GitHub Pages
 
@@ -24,7 +24,7 @@ The public address will normally be:
 2. Open the extracted folder.
 3. Double-click `index.html`.
 
-The portfolio and all five artifact pages work directly from local files. No installation or server is required.
+The portfolio and all seven artifact pages work directly from local files. No installation or server is required.
 
 ## Optional local server
 
@@ -41,9 +41,9 @@ Then open `http://localhost:8000`.
 - `index.html` — portfolio home page
 - `styles.css` — responsive design
 - `script.js` — artifact data and rendering
-- `artifacts/<artifact-name>/index.html` — five separate artifact landing pages
+- `artifacts/<artifact-name>/index.html` — seven separate artifact landing pages
 - `artifacts/files/` — reports, code, and results
 - `assets/` — portfolio visuals
 - `.github/workflows/pages.yml` — GitHub Pages deployment workflow
 
-The Workshop Four and Five analyses use real public data but remain educational demonstrations. They are not clinical tools and should not be used for real medical decisions.
+The Workshop Four, Workshop Five, and final-project analyses use real public data but remain educational demonstrations. They are not clinical tools and should not be used for real medical decisions.

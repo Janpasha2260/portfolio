@@ -1,0 +1,2 @@
+selected_model,test_records,test_mae,test_rmse,test_r2
+Ridge regression,89,42.856825247800614,53.6262875688952,0.45721095677808465
